@@ -50,5 +50,26 @@
         </button>
       </div>
     </div>
+    <div id="section-2" class="grid grid-cols-3">Test</div>
+    <div id="section-3" class="text-center">
+      <h2 class="text-6xl font-oswald text-red-500 uppercase font-medium pt-20">
+        Our Crazy Burgers
+      </h2>
+      <p class="text-gray-500 font-light text-xl my-10 px-20">
+        Whether you are looking for the classics, our specialties, or just wraps, salads,
+        and fries. We have it all. We always have something that rewards your tastebuds.
+      </p>
+
+      <div class="grid grid-cols-2 px-40 gap-5">
+        <div id="left-item-column">
+          <Crispychicken />
+          <Baabaablacksheep />
+        </div>
+        <div id="right-item-column">
+          <Ultimatebacon />
+          <Doubleburger />
+        </div>
+      </div>
+    </div>
   </div>
 </template>
