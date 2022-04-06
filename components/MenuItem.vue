@@ -2,7 +2,7 @@
   <div id="items" class="text-center">
     <div>
       <div>
-        <img src="crispy-chicken.jpg" alt="" class="border border-gray p-5" />
+        <img src="/crispy-chicken.jpg" alt="" class="border border-gray p-5" />
       </div>
       <h4 class="font-oswald uppercase text-2xl">Crispy Chicken</h4>
       <p class="font-light text-gray-500 my-2">
