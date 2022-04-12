@@ -6,11 +6,12 @@
           <img src="/logo.png" class="w-[150px]" alt="" />
         </div>
         <div id="menu-right">
-          <ul class="grid grid-cols-4 text-lg font-oswald text-white uppercase pt-5">
+          <ul class="grid grid-cols-5 text-lg font-oswald text-white uppercase pt-5">
             <li class="text-ellipsis overflow-hidden">About Us</li>
-            <li class="text-ellipsis overflow-hidden">Our Menu</li>
+            <NuxtLink to="/menu">Our Menu</NuxtLink>
             <li class="text-ellipsis overflow-hidden">Location</li>
             <li class="text-ellipsis overflow-hidden">Contacts</li>
+            <NuxtLink to="/cart">Cart({{ $store.getters.totalItems }})</NuxtLink>
           </ul>
         </div>
       </div>
