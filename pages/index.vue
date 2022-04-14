@@ -50,7 +50,74 @@
         </button>
       </div>
     </div>
-    <div id="section-2" class="grid grid-cols-3">Test</div>
+    <div
+      id="section-2"
+      class="grid grid-cols-3 text-center px-20 py-10 bg-yellow-500 gap-10"
+    >
+      <div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-20 w-20 stroke-1 mx-auto"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+          />
+        </svg>
+        <h2 class="font-medium font-oswald text-2xl uppercase py-5">Original Recipes</h2>
+        <p class="font-light">
+          We use our secret recipes with only the best ingredients to make our burgers.
+          Starting from patties, sauces, and even buns.
+        </p>
+      </div>
+      <div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-20 w-20 stroke-1 mx-auto"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.701 2.701 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9 3h.01M12 3h.01M15 3h.01M21 21v-7a2 2 0 00-2-2H5a2 2 0 00-2 2v7h18zm-3-9v-2a2 2 0 00-2-2H8a2 2 0 00-2 2v2h12z"
+          />
+        </svg>
+        <h2 class="font-medium font-oswald text-2xl uppercase py-5">Quality Foods</h2>
+        <p class="font-light">
+          We purchase our ingredients from the best suppliers daily, to ensure the
+          freshest quality of our burgers.
+        </p>
+      </div>
+      <div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-20 w-20 stroke-1 mx-auto"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M13 10V3L4 14h7v7l9-11h-7z"
+          />
+        </svg>
+        <h2 class="font-medium font-oswald text-2xl uppercase py-5">Fastest Delivery</h2>
+        <p class="font-light">
+          Burgers are best served while it's hot. We deliver to your door with our speedy
+          delivery partners from the nearest outlet.
+        </p>
+      </div>
+    </div>
     <div id="section-3" class="text-center">
       <h2 class="text-6xl font-oswald text-red-500 uppercase font-medium pt-20">
         Our Crazy Burgers
