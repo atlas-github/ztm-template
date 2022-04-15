@@ -191,5 +191,38 @@
         <img src="offer-3.jpg" alt="" />
       </div>
     </div>
+    <div id="section-4" class="px-20 bg-gray-100 py-20">
+      <div class="grid grid-cols-2">
+        <img src="about.png" alt="" class="pl-20" />
+        <h3 class="uppercase font-oswald text-5xl pl-20 pr-4 pt-10leading-snug">
+          Nothing Brings People Together Like a Good Burger
+        </h3>
+      </div>
+      <p class="text-lg text-gray-500 mt-10">
+        That's the philosophy that we always believe in. We're a family-owned and operated
+        business, and we're proud to be a part of the community. We do our best to make
+        sure that everyone's happy and having a good time.
+      </p>
+      <p class="text-lg text-gray-500 mt-10">
+        Burgers are what brought us together and what keeps us together. It's something
+        that you can't put a price tag on. More importantly, we are interested in people.
+        It's not just about the food.
+      </p>
+    </div>
+    <div id="section-5" class="grid grid-cols-5 bg-yellow-500 text-amber-900">
+      <div class="col-span-3 pl-20 pt-16 pb-16">
+        <h4 class="font-oswald text-5xl uppercase">Download Mobile App</h4>
+        <h4 class="font-oswald text-6xl uppercase">Save up to 20%</h4>
+        <p class="text-lg my-7">
+          Bye bye long queues. Order before and your food will be ready in a flash. Enjoy
+          the convenience of ordering food online at any time and from any location.
+        </p>
+        <button><img src="/appstore.png" alt="" class="h-[50px]" /></button>
+        <button><img src="/googleplay.png" alt="" class="h-[50px]" /></button>
+      </div>
+      <div class="col-span-2">
+        <img src="/eshop.png" alt="" class="-mt-10 h-[500px] object-cover" />
+      </div>
+    </div>
   </div>
 </template>
