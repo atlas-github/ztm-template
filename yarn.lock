@@ -10159,6 +10159,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nodemailer@npm:^6.7.3":
+  version: 6.7.3
+  resolution: "nodemailer@npm:6.7.3"
+  checksum: b94d099f00f25666fc96a7cb498045e7428045b8cc0245ce10522190fd513b586d6e31305afd019f6878f1540d14d169d0dbe2e1f77385795c7054912d822ec0
+  languageName: node
+  linkType: hard
+
 "nopt@npm:^5.0.0":
   version: 5.0.0
   resolution: "nopt@npm:5.0.0"
@@ -15112,6 +15119,7 @@ __metadata:
     firebase: ^9.6.10
     http-cache-semantics: ^4.1.0
     json5: ^2.2.1
+    nodemailer: ^6.7.3
     nuxt: ^2.15.8
     tailwindcss: ^3.0.23
     vue: ^2.6.14

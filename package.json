@@ -19,6 +19,7 @@
     "firebase": "^9.6.10",
     "http-cache-semantics": "^4.1.0",
     "json5": "^2.2.1",
+    "nodemailer": "^6.7.3",
     "nuxt": "^2.15.8",
     "tailwindcss": "^3.0.23",
     "vue": "^2.6.14",

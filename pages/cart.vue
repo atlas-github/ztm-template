@@ -20,7 +20,7 @@
       </h1>
     </div>
 
-    <table class="table-auto w-2/3 mt-20 mx-auto">
+    <table class="table-auto w-2/3 mt-20 mx-auto mb-20">
       <thead>
         <tr>
           <th class="text-left">Name</th>
@@ -48,6 +48,24 @@
           <td class="py-10" colspan="3">Total</td>
           <td class="text-right">RM {{ total.toFixed(2) }}</td>
         </tr>
+        <tr>
+          <td colspan="3">
+            <input
+              id="email"
+              type="email"
+              placeholder="Please enter your email"
+              class="w-full border border-gray-300 text-xl mt-5 py-3 px-2"
+            />
+          </td>
+          <td colspan="2" class="text-right">
+            <button
+              class="font-oswald uppercase bg-red-500 text-white text-xl py-3 px-2 ml-5 mt-5"
+              @click="submitOrder"
+            >
+              Confirm My Order
+            </button>
+          </td>
+        </tr>
       </tfoot>
     </table>
   </div>
@@ -70,6 +88,12 @@ export default {
     removeItem(name) {
       this.$store.commit('removeItem', name);
     },
+    submitOrder() {
+      this.$axios.post('/.netlify/functions/email', {
+        email: document.getElementById('email').value,
+        orders: this.$store.state.orders,
+      })
+    }
   },
 };
 </script>
