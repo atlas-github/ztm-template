@@ -40,8 +40,7 @@ exports.handler = async function (event, context) {
         message: 'Email sent successfully',
       }),
     };
-  }
-  catch (error) {
+  } catch (error) {
     console.log('Error sending email', error);
   }
 };
