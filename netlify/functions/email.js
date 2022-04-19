@@ -27,9 +27,8 @@ exports.handler = async function (event, context) {
     port: 465,
     secure: true,
     auth: {
-      api_key: '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',
-      // user: 'apikey',
-      // password: process.env.sendgridApiKey
+      user: 'apikey',
+      password: process.env.sendgridApiKey
     }
   })
 
