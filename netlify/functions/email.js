@@ -29,8 +29,8 @@ exports.handler = async function (event, context) {
     auth: {
       user: 'apikey',
       password: process.env.sendgridApiKey
-    }
-  })
+    },
+  });
 
   try {
     await mailer.sendMail(email);
