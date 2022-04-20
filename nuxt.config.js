@@ -44,24 +44,14 @@ export default {
 
   firebase: {
     config: {
-      apiKey: 'AIzaSyDnN_Y67NnOydqJgM7IoRtoJsEYCNVP59g',
-      authDomain: 'houzburger.firebaseapp.com',
-      projectId: 'houzburger',
-      storageBucket: 'houzburger.appspot.com',
-      messagingSenderId: '221336248796',
-      appId: '1:221336248796:web:63fc2e3345e565da566f19',
-      measurementId: 'G-61HG1ML02P'
+      apiKey: 'AIzaSyA6jD6aY3ui52VH8F6pe3CzK8tYcu23CMg',
+      authDomain: 'ztmburger-99fe4.firebaseapp.com',
+      projectId: 'ztmburger-99fe4',
+      storageBucket: 'ztmburger-99fe4.appspot.com',
+      messagingSenderId: '769031634046',
+      appId: '1:769031634046:web:a4afefaaa130bad0c7ac2f',
+      measurementId: 'G-DDV1SBRCJE'
     },
-    services: {
-      auth: {
-        persistence: 'local', // default
-        initialize: {
-          // onAuthStateChangedAction: 'onAuthStateChangedAction',
-          subscribeManually: false
-        },
-        ssr: false, // default
-      }
-    }
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
