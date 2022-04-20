@@ -52,6 +52,16 @@ export default {
       appId: '1:769031634046:web:a4afefaaa130bad0c7ac2f',
       measurementId: 'G-DDV1SBRCJE'
     },
+    services: {
+      auth: {
+        persistence: 'local', // default
+        initialize: {
+          // onAuthStateChangedAction: 'onAuthStateChangedAction',
+          subscribeManually: false
+        },
+        ssr: false, // default
+      }
+    }
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
