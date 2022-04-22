@@ -4,6 +4,15 @@ const { getFirestore } = require('firebase-admin/firestore');
 const serviceAccount = JSON.parse(process.env.firebaseCredential);
 
 exports.handler = async function (event, context) {
+  const user = context.clientContext.user;
+  if (user.email !== 'kohwyhow@gmail.com') {
+    return {
+      statusCode: 401,
+      body: JSON.stringify({
+        message: 'You are not allowed to retrieve orders',
+      }),
+    };
+  }
   let app;
   if (admin.apps.length === 0) {
     app = initializeApp({
@@ -12,7 +21,7 @@ exports.handler = async function (event, context) {
   }
 
   const db = getFirestore(app);
-  const orders = await db.collection("orders").get();
+  const orders = await db.collection('orders').get();
 
   const results = orders.docs.map((doc) => {
     return {
