@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div id="header" class="bg-[url('/hero-bg.jpg')] px-20">
+    <div id="header" class="bg-[url('/hero-bg.jpg')] md:px-20 px-5">
       <div id="menu" class="grid grid-cols-2 py-5">
         <div id="menu-left">
           <img src="logo.png" class="w-[150px]" alt="" />
@@ -14,10 +14,12 @@
           </ul>
         </div>
       </div>
-      <div class="grid grid-cols-2 pb-20 pt-10">
-        <img src="hero-burger.png" class="pr-8 mt-10" alt="" />
+      <div class="grid md:grid-cols-2 pb-20 pt-10">
+        <img src="/hero-burger.png" class="md:pr-8 mt-10" alt="" />
         <div>
-          <h1 class="text-8xl text-white text-center font-lilita font-bold uppercase">
+          <h1
+            class="pt-5 text-8xl text-white text-center font-lilita font-bold uppercase"
+          >
             Classic Burger
           </h1>
           <h2
@@ -36,10 +38,12 @@
       id="section-1"
       class="text-center bg-[url('/three-burgers.jpeg')] pb-60 bg-cover bg-center"
     >
-      <h1 class="text-6xl uppercase font-oswald text-center pt-20 px-24">
+      <h1 class="text-6xl uppercase font-oswald text-center pt-20 md:px-24 px-5">
         The burger tastes better when you eat it with family
       </h1>
-      <p class="font-oswald font-light text-gray-500 text-center text-lg py-6 px-28">
+      <p
+        class="font-oswald font-light text-gray-500 text-center text-lg py-6 md:px-28 px-10"
+      >
         Spend quality time with your family and eat an affordable, nutritious and
         delicious meal together. Not all burgers are fast foods. All our burgers are
         handmade to orders for you an your family members to enjoy.
@@ -52,7 +56,7 @@
     </div>
     <div
       id="section-2"
-      class="grid grid-cols-3 text-center px-20 py-10 bg-yellow-500 gap-10"
+      class="grid md:grid-cols-3 text-center px-20 py-10 bg-yellow-500 gap-10"
     >
       <div>
         <svg
@@ -122,12 +126,12 @@
       <h2 class="text-6xl font-oswald text-red-500 uppercase font-medium pt-20">
         Our Crazy Burgers
       </h2>
-      <p class="text-gray-500 font-light text-xl my-10 px-20">
+      <p class="text-gray-500 font-light text-xl my-10 md:px-20 px-10">
         Whether you are looking for the classics, our specialties, or just wraps, salads,
         and fries. We have it all. We always have something that rewards your tastebuds.
       </p>
 
-      <div class="grid grid-cols-2 px-40 gap-5">
+      <div class="grid md:grid-cols-2 md:px-40 gap-5">
         <div id="left-item-column">
           <Item
             image="crispy-chicken.jpg"
@@ -158,19 +162,19 @@
         </div>
       </div>
       <div
-        class="grid grid-cols-12 font-oswald uppercase text-4xl text-yellow-800 px-40 gap-5"
+        class="grid md:grid-cols-12 font-oswald uppercase text-4xl text-yellow-800 md:px-40 gap-5"
       >
         <div
-          class="col-span-5 bg-cover bg-center bg-[url('/fries-bg-1.jpg')] pl-20 pb-10 pt-10"
+          class="md:col-span-5 bg-cover bg-center bg-[url('/fries-bg-1.jpg')] md:pl-20 pb-10 pt-10 text-right pr-5"
         >
           <h4>Get your free</h4>
           <h4>Cheese Fries</h4>
-          <button class="uppercase bg-red-500 text-white text-lg py-3 px-8 mt-5">
+          <button class="uppercase bg-red-500 text-white text-lg py-3 px-8 my-5">
             Claim now
           </button>
         </div>
         <div
-          class="col-span-7 bg-[url('/burger-bg-1.jpg')] bg-cover bg-center text-right pr-10 pt-10"
+          class="md:col-span-7 bg-[url('/burger-bg-1.jpg')] bg-cover bg-center text-right pr-10 pt-10"
         >
           <h4>
             Crispy <br />
@@ -180,37 +184,39 @@
             Burger <br />
             is back!
           </h4>
-          <button class="uppercase bg-red-500 text-white text-lg py-3 px-8 mt-5">
+          <button class="uppercase bg-red-500 text-white text-lg py-3 px-8 my-5">
             Claim now
           </button>
         </div>
       </div>
-      <div class="grid grid-cols-3 px-40 mt-5 gap-5">
+      <div class="md:grid grid-cols-3 md:px-40 mt-5 gap-5">
         <img src="offer-1.jpg" alt="" />
         <img src="offer-2.jpg" alt="" />
         <img src="offer-3.jpg" alt="" />
       </div>
     </div>
-    <div id="section-4" class="px-20 bg-gray-100 py-20">
-      <div class="grid grid-cols-2">
-        <img src="about.png" alt="" class="pl-20" />
-        <h3 class="uppercase font-oswald text-5xl pl-20 pr-4 pt-10leading-snug">
+    <div id="section-4" class="md:px-20 bg-gray-100 py-20">
+      <div class="grid md:grid-cols-2">
+        <img src="about.png" alt="" class="md:pl-20 px-10" />
+        <h3
+          class="uppercase text-center font-oswald text-5xl md:pl-20 md:pr-4 px-10 pt-10 leading-snug"
+        >
           Nothing Brings People Together Like a Good Burger
         </h3>
       </div>
-      <p class="text-lg text-gray-500 mt-10">
+      <p class="text-lg text-gray-500 mt-10 px-10">
         That's the philosophy that we always believe in. We're a family-owned and operated
         business, and we're proud to be a part of the community. We do our best to make
         sure that everyone's happy and having a good time.
       </p>
-      <p class="text-lg text-gray-500 mt-10">
+      <p class="text-lg text-gray-500 mt-10 px-10">
         Burgers are what brought us together and what keeps us together. It's something
         that you can't put a price tag on. More importantly, we are interested in people.
         It's not just about the food.
       </p>
     </div>
-    <div id="section-5" class="grid grid-cols-5 bg-yellow-500 text-amber-900">
-      <div class="col-span-3 pl-20 pt-16 pb-16">
+    <div id="section-5" class="grid md:grid-cols-5 bg-yellow-500 text-amber-900">
+      <div class="col-span-3 md:pl-20 pl-5 pt-16 pb-16 text-center pr-5">
         <h4 class="font-oswald text-5xl uppercase">Download Mobile App</h4>
         <h4 class="font-oswald text-6xl uppercase">Save up to 20%</h4>
         <p class="text-lg my-7">
@@ -220,7 +226,7 @@
         <button><img src="/appstore.png" alt="" class="h-[50px]" /></button>
         <button><img src="/googleplay.png" alt="" class="h-[50px]" /></button>
       </div>
-      <div class="col-span-2">
+      <div class="col-span-2 hidden md:block">
         <img src="/eshop.png" alt="" class="-mt-10 h-[500px] object-cover" />
       </div>
     </div>
